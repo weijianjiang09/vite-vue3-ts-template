@@ -1,0 +1,4 @@
+node_modules/
+dist/
+index.html
+#忽略文件
