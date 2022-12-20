@@ -14,7 +14,9 @@ import HelloWorld from "./components/HelloWorld.vue";
   <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+// @import "./assets/style/mian.scss";
+$test-color: red;
 .logo {
   height: 6em;
   padding: 1.5em;
