@@ -61,13 +61,6 @@ export default defineConfig({
       autoInstall: true,
     }),
   ],
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: '@import "@/assets/style/mian.scss";',
-      },
-    },
-  },
   publicDir: "assets",
   resolve: {
     //设置别名
